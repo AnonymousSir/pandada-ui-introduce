@@ -1,0 +1,106 @@
+// 全局样式
+body,html {
+    width: 100%;
+    height: 100%;
+  }
+body,html {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+ul,li {
+  list-style-type: none;
+}
+.hidden-scroll::-webkit-scrollbar {
+  display: none;
+}
+// 一块介绍区域的基础样式
+// .content__box:first-child .title {
+//   padding-top: 42px;
+// }
+.content__box {
+  margin-bottom: 25px;
+  // position: relative;
+  // 标题
+  & > .title {
+    color: #2c3e50;
+    border-bottom: 1px solid #eaecef;
+    padding: 55px 0 10px 0;
+    margin: 0 0 20px 0;
+    position: relative;
+    a {
+      color: #3eaf7c;
+      // padding: 10px 0;
+      padding: 55px 0 10px 0;
+      padding-right: 5px;
+      display: none;
+      position: absolute;
+      top: 0;
+      left: -20px;
+      &:hover {
+        display: inline-block;
+        text-decoration: underline;
+      }
+    }
+    &:hover {
+      a {
+        display: inline-block;
+      }
+    }
+  }
+  // h1标题
+  & > h1.title {
+    border: none;
+    padding-top: 15px;
+    // position: absolute;
+    z-index: 9;
+    a {
+      left: -25px;
+      padding-top: 15px;
+    }
+  }
+  // 只有标题
+    &, & > .none {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  & > a {
+    color: #3eaf7c;
+    span {
+      color: #000;
+      padding-left: 5px;
+    }
+  }
+}
+.content__footer {
+  width: 100%;
+  padding: 15px 25px;
+  margin: 55px 0 50px 0;
+  box-sizing: border-box;
+  // border-top: 1px solid #eaecef;
+  display: flex;
+  justify-content: space-between;
+  a {
+    color: #3eaf7c;
+    span {
+      color: #000;
+    }
+  }
+}
+code {
+  color: #476582;
+  font-size: 0.75em;
+  font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
+  border-radius: 3px;
+  background-color: rgba(27,31,35,.05);
+  padding: 3px 8px;
+  margin: 0 3px;
+}

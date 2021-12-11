@@ -1,0 +1,30 @@
+{
+  "id": "2809892",
+  "name": "pandada-expalin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14835598",
+      "name": "左箭头",
+      "font_class": "arrowLeft",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "14835599",
+      "name": "右箭头",
+      "font_class": "arrowRight",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "11519615",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    }
+  ]
+}

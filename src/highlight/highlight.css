@@ -1,0 +1,8 @@
+.hljs {
+    font-size: 16px;
+    font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+    padding: 20px 24px;
+    margin: 14px 0;
+    border-radius: 6px;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, 1), 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
